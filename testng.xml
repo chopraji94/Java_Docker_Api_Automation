@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="com.aventstack.chaintest.plugins.ChainTestListener"/>
+    </listeners>
+    <test name="Test1">
+        <classes>
+            <class name="Test.APITest"/>
+            <class name="Test.DynamicApiDeleteTest"/>
+            <class name="Test.DynamicApiGetAllTypeOfData"/>
+            <class name="Test.DynamicApiPostGetPatchTest"/>
+            <class name="Test.DynamicApiPostGetPutTest"/>
+            <class name="Test.DynamicApiPostGetTest"/>
+        </classes>
+    </test>
+</suite>
