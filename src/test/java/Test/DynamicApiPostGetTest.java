@@ -17,7 +17,6 @@ public class DynamicApiPostGetTest {
 
     DynamicGetObject data;
     DynamicGetObject newData;
-    DynamicGetObject updatedData;
 
     @Test(priority = 1)
     public void postDynamicObject() throws IOException {
