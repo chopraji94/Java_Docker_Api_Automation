@@ -12,6 +12,7 @@
             <class name="Test.DynamicApiPostGetPatchTest"/>
             <class name="Test.DynamicApiPostGetPutTest"/>
             <class name="Test.DynamicApiPostGetTest"/>
+            <class name="Test.UsefBearerAuthAPITest"/>
         </classes>
     </test>
 </suite>
